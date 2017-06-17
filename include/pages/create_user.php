@@ -8,7 +8,9 @@ if (!empty($_POST["login"]) && !empty($_POST["password"]) && !empty($_POST["conf
 	// Insert into database
 	include("managers/insert_user.php");
 
-	insert_user($_POST["login"], $_POST["password"], $_POST["email"], $_POST["level"], 1);
+//	insert_user($_POST["login"], $_POST["password"], $_POST["email"], $_POST["level"], 1);
+	include("managers/get_all_users.php");
+	print_r(get_all_users());
 } else {
 	
 	// On arrive sur la page depuis la premiere fois, donc on affiche le formulaire classique
