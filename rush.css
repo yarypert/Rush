@@ -117,7 +117,21 @@ body
 .user_pic
 {
 	position: absolute;
-	text-align: center;
-	height:;
-	background-color: #1a237e;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.user_info
+{
+	background-color: #ff3d00;
+	position: absolute;
+	margin-top: 5px;
+	height: 95px;
+	width: 275px;
+}
+.user_buy
+{
+	position: absolute;
+	margin-left:150px;
+	margin-top: -100px;
 }
