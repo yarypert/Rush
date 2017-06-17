@@ -24,7 +24,7 @@ body
 	text-align:right;
 	top:30px;
 	right:0px;
-	width: 250px;
+	width: 300px;
 	height: 60px;
 }
 
@@ -41,7 +41,38 @@ body
 	height:35px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: right;
 	background-color: #000000;
+}
+
+.connecter
+{
+	position: relative;
+	color: #3399FF;
+	font-family: helvetica;
+	text-decoration: none;
+	right: 10px;
+	top: 8px;
+}
+
+.create
+{
+	position: relative;
+	color: #3399FF;
+	font-family: helvetica;
+	text-decoration: none;
+	right: 25px;
+	top: 8px;
+}
+
+.info_panier
+{
+	color: #3399FF;
+	font-size: 20px;
+	font-family: helvetica;
+	position: relative;
+	left: -35px;
+	top: -45px;
 }
 
 .baruser2
@@ -97,7 +128,8 @@ body
 .ctntstudent
 {
 	background-color: #ececec;
-	position:absolute;
+	display: inline-block;
+	/*vertical-align: top;*/
 	margin-top: 25px;
 	margin-left: 25px;
 	height: 300px;
@@ -107,11 +139,13 @@ body
 .users
 {
 	background-color: #d0d0d0;
-	position:absolute;
+	display: inline-block;
+	/*display: block;*/
+	/*position:absolute;*/
 	margin-top: 10px;
 	margin-left: 10px;
 	height: 280px;
-	width: 295px;
+	width: 285px;
 	border-left: solid;
 	border-right: solid;
 	border-color: #999999;
@@ -135,7 +169,9 @@ body
 }
 .user_buy
 {
-	position: absolute;
-	margin-left:150px;
-	margin-top: -100px;
+	position: relative;
+	/*margin-left:150px;*/
+	/*margin-top: -100px;*/
+	bottom: 10px;
+	text-align: center;
 }

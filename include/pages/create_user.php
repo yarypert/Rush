@@ -10,9 +10,9 @@ if (!empty($_POST["login"]) && !empty($_POST["password"]) && !empty($_POST["conf
 
 //	insert_user($_POST["login"], $_POST["password"], $_POST["email"], $_POST["level"], 1);
 	include("managers/get_all_users.php");
-	print_r(get_all_users());
+	$liste_user = get_all_users();
+
 } else {
-	
 	// On arrive sur la page depuis la premiere fois, donc on affiche le formulaire classique
 ?>
 
@@ -31,8 +31,13 @@ if (!empty($_POST["login"]) && !empty($_POST["password"]) && !empty($_POST["conf
 	<label>Niveau</label>
 	<input type="number" min="0" max="21" name="level" required="required">
 	<label for=""></label>
-	<input class="sub-button" type="submit" value="Créer">
+	<input class="sub-button" type="submit" value="Créer" onclick="msg()">
 </form>
+<script>
+function msg() {
+    alert("Account succesfully created !!");
+}
+</script>
 
 
 <?php
