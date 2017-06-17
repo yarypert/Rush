@@ -7,12 +7,13 @@
 		$page=0;
 	}
 	switch ($page) {
-		case 1:
-			include_once('include/pages/connexion.php'); // Mettre ici les pages correspondantes
+		case 0:
+//			include_once('include/pages/create_user.php'); // Mettre ici les pages correspondantes
 			// Du genre connexion, creer un compte, voir le panier, etc.
 			break;
 		case 1:
-			// Ajouter une nouvelle personne
+			include_once('include/pages/create_user.php'); // Mettre ici les pages correspondantes
+//			 Ajouter une nouvelle personne
 //			include("pages/personne/ajouterPersonne.inc.php");
 //			break;
 			// Page 404

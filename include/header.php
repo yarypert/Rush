@@ -5,4 +5,4 @@
 	<title>Document</title>
 </head>
 <body>
-<a href="index.php?page=1">Se connecter</a>
+<a href="index.php?page=1">Creer compte</a>
