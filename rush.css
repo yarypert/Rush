@@ -96,5 +96,28 @@ body
 
 .ctntstudent
 {
+	background-color: #00acc1;
+	position:absolute;
+	margin-top: 25px;
+	margin-left: 25px;
+	height: 300px;
+	width: 900px;
+}
 
+.users
+{
+	background-color: #0b8043;
+	position:absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 280px;
+	width: 295px;
+}
+
+.user_pic
+{
+	position: absolute;
+	text-align: center;
+	height:;
+	background-color: #1a237e;
 }
