@@ -1,0 +1,106 @@
+body
+{
+	background: url("resources/Background.jpg") no-repeat center center fixed; 
+	background-size: cover;
+}
+
+.header
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:1200px;
+	position:relative;
+}
+
+.logo
+{
+	width: 700px;
+}
+
+.panier
+{
+	position: absolute;
+	background-color: #000000;
+	text-align:right;
+	top:30px;
+	right:0px;
+	width: 250px;
+	height: 60px;
+}
+
+.imgpanier
+{
+	margin-top:5px ;
+	margin-right:5px ;
+}
+
+.baruser1
+{
+	margin-top:30px;
+	width:1200px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000000;
+}
+
+.baruser2
+{
+	width:1200px;
+	height:35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #b32229;
+}
+
+.corps
+{
+	position: relative;
+	background-color: #ffffff;
+	width:1200px;
+	min-height:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.bandegauche
+{
+	position:absolute;
+	background-color: #000000;
+	width:950px;
+	height:50px;
+	margin-left: 250px;
+	margin-right: auto;
+}
+
+.bandehaut
+{
+	position:absolute;
+	background-color: #e6e6e6;
+	width:250px;
+	min-height:1000px;
+	border-right-style: solid;
+	border-color: #000000;
+	box-sizing: border-box;
+}
+
+.profile
+{
+	position:absolute;
+	background-color: #1a237e;
+	width:850px;
+	height:850px;
+	margin-left:300px;
+	margin-top:100px;
+}
+
+.profile_pic {
+	position: absolute;
+	background-color: #ff0000;
+	width: 250px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border-radius : 50%;
+}
