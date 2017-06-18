@@ -2,7 +2,6 @@ Definir les categries de produit;
 
 filtrer par categories;
 
-Finir la page profil;
 -supprimer le compte
 
 Faire le panier;
