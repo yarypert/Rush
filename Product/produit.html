@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="produit.css"/>
+    <script type="text/javascript">
+		function changequant(button)
+		{
+			var input = document.getElementById("inum")
+            if (button == -1 && input.value > 0 || button == 1 && input.value < 9)
+                input.value = parseInt(input.value) + parseInt(button);
+		}
+	</script>
+</head>
+<body>
+    <div id="produit">
+        <div id="hide">
+            <div id="user-text">
+            <p id="user">Ysan-seb</p>
+            <p id="price">50€</p>
+            </div>
+            <div id="num-pad">
+            <center><button class="conf shad" id="Aff" onclick="changequant(-1)">-</button>
+            <input id="inum" type="number" name="quantity" value=0 min="0" max="9">
+            <button class="confi sha" id="mode" onclick="changequant(1)">+</button></center></div>
+            <center><button type="margin: 10px" class="config shadow" id="Aff">Détails</button>
+            <button class="config shadow" id="mode">Panier</button></center>
+        </div>
+        <img id="day_of" src="https://cdn.intra.42.fr/users/medium_ysan-seb.jpg"/>
+    </div>
+</body>
+</html>
