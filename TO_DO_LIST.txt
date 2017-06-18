@@ -1,11 +1,5 @@
-filtrer par categories;
+filtrer par categories; 1h
 
--supprimer le compte
+-supprimer le compte 30min
 
-interface admin;
--suppression d'articles;
--supression de compte;
-
-lier html php pour la suppresion des profil
-
-install.php
+install.php 30min
