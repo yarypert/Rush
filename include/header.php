@@ -8,7 +8,7 @@
 <body>
 	<div class="header">
 		<div class="logo">
-			<img src="resources/Logo.png">
+			<a href="index.php?page=0"><img src="resources/Logo.png"></a>
 		</div>
 		<div class="panier">
 			<img class="imgpanier" src="resources/panier.png">
