@@ -175,3 +175,129 @@ body
 	bottom: 10px;
 	text-align: center;
 }
+
+.pos-general
+{
+    margin-left: -110px;
+    margin-top: 50px;
+    width: 900px;
+}
+
+.pos-id_mdp
+{
+    width: 900px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.pos-pw_cpw
+{
+    margin-top: 20px;
+    width: 900px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.pos-lvl
+{
+    margin-top: 20px;
+    width: 685px;
+    height: 40px;
+    margin-left: 265px;
+}
+
+.pos-button
+{
+    margin-top: 20px;
+    width: 880px;
+    height: 40px;
+    margin-left: 65px;
+}
+
+.pos-login
+{
+margin-top: 50px;
+}
+
+.connection-pos
+{
+    margin-top: 32px;
+    margin-left: 280px;
+    position: absolute;
+    width: 300px;
+    height: 250px;
+}
+
+.connection-input
+{
+    float:left;
+    text-align: center;
+    background-color: #c0c0c0;
+    box-sizing: border-box;
+    color: #23232d;
+    display: block;
+    font-family: "Open Sans",Georgia,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.pos-connection
+{
+    margin-left: -10px;
+    width: 900px;
+    height: 40px;
+}
+
+.sub-button
+{
+    margin-left: 5px;
+    background: #000000;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 14px;
+    width: 250px;
+    height: 40px;
+}
+
+.button-pos
+{
+ margin-top: 30px;
+}
+
+.create-account
+{
+    margin-left: 10px;
+    margin-top: 15px;
+    background: #000000;
+    border-radius: 20px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 14px;
+    width: 220px;
+    height: 30px;
+}
+.connection-input:focus
+{
+    outline: none;
+    background-color: white;
+}
+
+.sub-button:hover
+{
+    box-shadow: inset 0 0 1em gold, 0 0 2em red;
+    background: #B32229;
+}
+
+.create-account:hover
+{
+    box-shadow: inset 0 0 1em gold, 0 0 2em red;
+    background: #B32229;
+}
