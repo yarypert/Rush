@@ -1,12 +1,11 @@
-Definir les categries de produit;
-
 filtrer par categories;
 
 -supprimer le compte
 
-Faire le panier;
--remplir le panier sans etre identifie;
-
 interface admin;
 -suppression d'articles;
 -supression de compte;
+
+lier html php pour la suppresion des profil
+
+install.php
