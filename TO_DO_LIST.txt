@@ -6,7 +6,7 @@ Finir la page profil;
 -supprimer le compte
 
 Faire le panier;
--remplir le panier sans eetre identifie;
+-remplir le panier sans etre identifie;
 
 interface admin;
 -suppression d'articles;
