@@ -12,7 +12,7 @@
 		</div>
 		<div class="panier">
 			<img class="imgpanier" src="resources/panier.png">
-			<div class="info_panier" style="height: 35px; width: 150px">Login:</BR>Total panier:</div>
+			<div class="info_panier" style="height: 35px; width: 150px">Login: <?php echo $_SESSION['login']; ?></BR>Total panier:</div>
 			<
 		</div>
 	</div>
