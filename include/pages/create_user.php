@@ -16,29 +16,35 @@ if (!empty($_POST["login"]) && !empty($_POST["password"]) && !empty($_POST["conf
 	// On arrive sur la page depuis la premiere fois, donc on affiche le formulaire classique
 ?>
 
+    <link rel="stylesheet" href="rush.css" charset="utf-8">
 <h2 class="text-center">Créer un compte</h2>
 
 
 <form id="form-create-account" action="#" method="post">
 	<label>Login</label>
 	<input type="text" name="login" required="required">
+    <br><br>
 	<label>Mot de passe</label>
 	<input type="password" name="password" required="required">
+    <br><br>
 	<label>Confirmer votre mot de passe</label>
 	<input type="password" name="conf-password" required="required">
+    <br><br>
 	<label>Adresse e-mail</label>
 	<input type="text" name="email" required="required">
+    <br><br>
 	<label>Niveau</label>
 	<input type="number" min="0" max="21" name="level" required="required">
+    <br><br>
 	<label for=""></label>
 	<input class="sub-button" type="submit" value="Créer" onclick="msg()">
+    <br><br>
 </form>
 <script>
 function msg() {
     alert("Account succesfully created !!");
 }
 </script>
-
 
 <?php
 }
