@@ -1,0 +1,13 @@
+Definir les categries de produit;
+
+filtrer par categories;
+
+Finir la page profil;
+-supprimer le compte
+
+Faire le panier;
+-remplir le panier sans eetre identifie;
+
+interface admin;
+-suppression d'articles;
+-supression de compte;
